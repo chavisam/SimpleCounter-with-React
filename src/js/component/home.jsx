@@ -36,6 +36,7 @@ const Home = props => {
 					<div className="line ">
 						<i className="fas fa-stopwatch"></i>
 					</div>
+					{/* el operador % devuelve el resto de una división */}
 					<div className="four line">{props.digitFour % 10}</div>
 					<div className="three line">{props.digitThree % 10}</div>
 					<div className="two line">{props.digitTwo % 10}</div>
